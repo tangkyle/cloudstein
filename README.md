@@ -19,7 +19,7 @@ docker run --name cs-mysql -e MYSQL_ROOT_PASSWORD=hello123 -d mysql
 
 docker run --privileged --name cs --link cs-mysql:mysql -e GITHUB_API_CLIENT_ID=< GITHUB CLIENT ID> -e GITHUB_API_CLIENT_SECRET=<GITHUB CLIENT API SECRET> -p 80:80 -d cloudstein
 
-After this, the environment is setup done, go to the http://HOSTIP/admin, then input the password “Hellp!@#”, 
+After this, the environment is setup done, go to the http://HOSTIP/admin, then input the password “Hello!@#”, 
 input the host's IP (client host ip). 
 
 Then everything is done
